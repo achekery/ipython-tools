@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ipython-tools"
+version = "0.1.0"
+description = ""
+authors = ["achekery <6503526+achekery@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [
+    { include = "ipython_tools", from = "src" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
